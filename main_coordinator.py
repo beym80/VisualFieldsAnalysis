@@ -38,12 +38,12 @@ import step5_cen_movstim
 if 'animal_type' in locals() or 'animal_type' in globals():
     pre_chick = animal_type
 else:
-    pre_chick = "chick"
+    pre_chick = "mouse"
 
 if 'orientation' in locals() or 'orientation' in globals():
     pre_orient = orientation
 else:
-    pre_orient = "bt"
+    pre_orient = "lr"
 
 if 'pathdlc' in locals() or 'pathdlc' in globals():
     pre_dlc = pathdlc
@@ -74,7 +74,7 @@ else:
 if 'videoname' in locals() or 'videoname' in globals():
     pre_vidname = videoname
 else:
-    pre_vidname = "chick%s.mp4"
+    pre_vidname = "mouse%s.mp4"
     
 if 'movfix' in locals() or 'movfix' in globals():
     pre_mov = movfix
@@ -94,17 +94,17 @@ else:
 if 'area2' in locals() or 'area2' in globals():
     pre_area2 = area2
 else:
-    pre_area2 = 30
+    pre_area2 = 0
     
 if 'area3' in locals() or 'area3' in globals():
     pre_area3 = area3
 else:
-    pre_area3 = 50
+    pre_area3 = 0
     
 if 'area4' in locals() or 'area4' in globals():
     pre_area4 = area4
 else:
-    pre_area4 = 30
+    pre_area4 = 0
 
 if 'area5' in locals() or 'area5' in globals():
     pre_area5 = area5
@@ -114,12 +114,12 @@ else:
 if 'frontalangle' in locals() or 'frontalangle' in globals():
     pre_front = frontalangle
 else:
-    pre_front = 15
+    pre_front = 20
 
 if 'lateralangle' in locals() or 'lateralangle' in globals():
     pre_lat = lateralangle
 else:
-    pre_lat = 150
+    pre_lat = 103.4
  
 if 'numbframes' in locals() or 'numbframes' in globals():
     pre_groupby = rec
@@ -129,7 +129,7 @@ else:
 if 'animal_ID' in locals() or 'animal_ID' in globals():
     pre_anID = animal_ID
 else:
-    pre_anID = "1 3 5.1 5.2"
+    pre_anID = "1 "
 
 if 'thresh' in locals() or 'thresh' in globals():
     pre_thres = thresh
